@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/bmi_logo"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:text="BMI Calculator"
+        android:textSize="20dp"
+        android:layout_below="@+id/logo"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="App Version 1.1.0"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/creater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/version"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Created By Sunera Sunilaka"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creater"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="2020 All Rights Reserved."
+        android:textAlignment="center"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9889082375891050/1926780177">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

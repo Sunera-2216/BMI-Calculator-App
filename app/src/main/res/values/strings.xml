@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+    <string name="help_menu">
+        You can calculate your BMI using this app. I recommend this app only for <b>adults</b> age starting from 20 years.
+        \n\n\nYou can enter your weight and height. You have to select what measurement type you are using.
+        \n\t\t\tkg = kilograms\n\t\t\tlb = pounds\n\t\t\tcm = centimeters\n\t\t\tft = feets
+        \n\n\nAfter entering your data you can have result by pressing CalculateBMI button.
+        In result you will see your BMI value, your health status and the weight you have to maintain according to your height.
+        \n\n\nThen you can see BMI chart classified by World Health Organization(W.H.O).
+        \n\n\nFinally you can get idea about your health and your nutrition level.
+        \n\n\n\nFor more details : <b>sunerasu2216@gmail.com</b>
+        \n\n\n\n\nEnjoy App.
+        \nThank You!
+    </string>
+
+    <string name="why_bmi">
+        BMI (Body Mass Index) is important as it is widely regarded that your chances of having a longer and healthier life are improved if you have a healthy BMI.
+        \n\nIf your BMI is high, you may also have an increased risk of developing <b>type 2 diabetes</b>, as well as other metabolic diseases such as <b>hypertension, high cholesterol and heart disease.</b>
+        \n\n\nBMI helps determine someone\'s overall health risk and what treatment may be appropriate.
+        \n\n\nIf your BMI is low, it means you are underweight. If high, it means you are overweight or obese.
+        \n\n\nSome risks of underweight
+        \n\t\tOsteoporosis
+        \n\t\tAnemia
+        \n\t\tSlow or impaired growth
+        \n\t\tFeeling tired all the time
+        \n\t\tGetting sick frequently
+        \n\nSome risks of overweight
+        \n\t\tHigh blood pressure
+        \n\t\tHeart disease
+        \n\t\tType 2 diabetes
+        \n\t\tOsteoarthritis
+        \n\t\tHigh cholesterol and blood lipids(LDL)
+        \n\n\nTo know more, visit : <a href="https://www.hsph.harvard.edu/obesity-prevention-source/obesity-definition/obesity-definition-full-story/" target="_blank">Why Use BMI</a>
+    </string>
+
+</resources>
